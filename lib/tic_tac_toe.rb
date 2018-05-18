@@ -82,12 +82,12 @@ class TicTacToe
       position_1 == "O" && position_2 == "O" && position_3 == "O"
    end
   end
-#
+
   def full?
     @board.all? do |position|
       position == "X" || position == "O"
   end
-end
+
 
   def draw?
     !won? && full?
@@ -111,7 +111,7 @@ end
       puts "Cat's Game!"
     end
   end
-end
+
 
   def display_board(board=nil)
     puts " #{board[0]} | #{board[1]} | #{board[2]} "
@@ -121,6 +121,3 @@ end
     puts " #{board[6]} | #{board[7]} | #{board[8]} "
   end
 end
-
-
-
