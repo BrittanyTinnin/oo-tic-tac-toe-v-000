@@ -1,5 +1,9 @@
 class TicTacToe
 
+
+
+  
+
   def initialize(board=nil)
     @board = board || Array.new(9, " ")
   end
@@ -13,6 +17,7 @@ class TicTacToe
   [0,4,8],
   [6,4,2]
 ]
+
 
 
   def display_board
@@ -107,3 +112,16 @@ end
     end
   end
 end
+=======
+  def display_board(board=nil)
+    puts " #{board[0]} | #{board[1]} | #{board[2]} "
+    puts "-----------"
+    puts " #{board[3]} | #{board[4]} | #{board[5]} "
+    puts "-----------"
+    puts " #{board[6]} | #{board[7]} | #{board[8]} "
+  end
+end
+
+
+
+>>>>>>> 3adab1b950c8dee5e857ad910b26e25fce6a955c
