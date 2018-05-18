@@ -7,5 +7,5 @@ require_relative '../lib/tic_tac_toe.rb'
 def initialize
   @TicTacToe = TicTacToe.new
   play
-  over?s
+  over?
 end
