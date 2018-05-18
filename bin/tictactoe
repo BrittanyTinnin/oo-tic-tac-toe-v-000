@@ -4,8 +4,7 @@ require_relative '../lib/tic_tac_toe.rb'
 
 # @TicTacToe = TicTacToe.new
 
-def initialize
-  @TicTacToe = TicTacToe.new
-  play
-  over?
-end
+# def initialize
+#   @TicTacToe = TicTacToe.new
+#   play
+# end
